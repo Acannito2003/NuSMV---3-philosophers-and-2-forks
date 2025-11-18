@@ -1,0 +1,505 @@
+NuSMV > read_model -i filosofi.smv
+NuSMV > flatten_hierarchy
+NuSMV > encode_variables
+NuSMV > build_model
+NuSMV > pick_state -i
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+NuSMV > simulate -i -k 30
+********  Simulation Starting From State 1.1   ********
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = hungry
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = eat
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = ok
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = hungry
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = eat
+  P2 = think
+  turn = p1
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = ok
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = hungry
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = eat
+  turn = p2
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = ok
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = hungry
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = eat
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = ok
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = hungry
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = eat
+  P2 = think
+  turn = p1
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = ok
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = hungry
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = eat
+  turn = p2
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = ok
+  turn = p2
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = hungry
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = eat
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = ok
+  P1 = think
+  P2 = think
+  turn = p0
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = think
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = hungry
+  P2 = think
+  turn = p1
+  fork0 = TRUE
+  fork1 = TRUE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+
+***************  AVAILABLE STATES  *************
+
+  ================= State =================
+  0) -------------------------
+  P0 = think
+  P1 = eat
+  P2 = think
+  turn = p1
+  fork0 = FALSE
+  fork1 = FALSE
+
+
+There's only one available state. Press Return to Proceed.
+
+Chosen state is: 0
+NuSMV >
+NuSMV >

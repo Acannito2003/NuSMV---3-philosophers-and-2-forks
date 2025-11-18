@@ -1,0 +1,63 @@
+MODULE main
+
+VAR
+  P0 : {think, hungry, eat, ok};
+  P1 : {think, hungry, eat, ok};
+  P2 : {think, hungry, eat, ok};
+
+  turn : {p0,p1,p2};
+
+  fork0 : boolean;   -- TRUE = libera
+  fork1 : boolean;   -- TRUE = libera
+
+ASSIGN
+  -- Stati iniziali
+  init(P0) := think;
+  init(P1) := think;
+  init(P2) := think;
+
+  init(turn) := p0;
+
+  init(fork0) := TRUE;
+  init(fork1) := TRUE;
+
+  next(P0) :=
+    case
+      turn = p0 & P0 = think : hungry;
+      turn = p0 & P0 = hungry & fork0 & fork1 : eat;
+      turn = p0 & P0 = eat : ok;
+      turn = p0 & P0 = ok : think;
+      TRUE : P0;
+    esac;
+
+  next(P1) :=
+    case
+      turn = p1 & P0 = think & P1 = think : hungry;
+      turn = p1 & P1 = hungry & fork0 & fork1 : eat;
+      turn = p1 & P1 = eat : ok;
+      turn = p1 & P1 = ok : think;
+      TRUE : P1;
+    esac;
+
+  next(P2) :=
+    case
+      turn = p2 & P1 = think & P2 = think : hungry;
+      turn = p2 & P2 = hungry & fork0 & fork1 : eat;
+      turn = p2 & P2 = eat : ok;
+      turn = p2 & P2 = ok : think;
+      TRUE : P2;
+    esac;
+
+   next(turn) :=
+    case
+      P0 = ok & turn = p0 : p1;
+      P1 = ok & turn = p1 : p2;
+      P2 = ok & turn = p2 : p0;
+      TRUE : turn;
+    esac;
+
+   next(fork0) :=
+    !( next(P0)=eat | next(P1)=eat | next(P2)=eat );
+
+   next(fork1) :=
+    !( next(P0)=eat | next(P1)=eat | next(P2)=eat );
